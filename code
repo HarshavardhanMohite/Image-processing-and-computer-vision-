@@ -1,11 +1,1 @@
-# Code
-gray image
-import cv2
-print("orignal image")                             #cv2 is library
-image= cv2.imread('/content/einstein.jpg')
-from google.colab.patches import cv2_imshow  #cv2 imshow function importing from GC patches
-cv2_imshow(image)                         #image showing fun used to display image
-print("grayscale image")
-cv2.image=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
-cv2_imshow(image)
-
+Resize_an_image.ipynb
